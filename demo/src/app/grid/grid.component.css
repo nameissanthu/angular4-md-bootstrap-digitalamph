@@ -1,0 +1,49 @@
+h3{
+    font-family: 'Luckiest Guy', cursive;
+   
+  
+}
+
+h6{
+    font-family: 'Luckiest Guy', cursive;
+}
+h4{
+    font-family: 'Lilita One', cursive;
+}
+p{
+    font-family: 'Chelsea Market', cursive;
+}
+
+
+
+div.transbox p {
+ 
+  
+  color: white;
+  background-color: #C96BFF;
+  border-radius:25px;
+  
+}
+
+.some{
+    background-color: skyblue;
+}
+div.background1 {
+  background: url("https://www.pretendcity.org/wp-content/uploads/2016/04/health-fair-bg.jpg") repeat;
+  border: 2px solid skyblue;
+}
+
+div.transbox1 {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 2px solid pink;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox1 p {
+  margin: 6%;
+  font-weight: bold;
+  color: #000000;
+  font-size: 20px;
+}

@@ -1,0 +1,77 @@
+ <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<div class="some1">
+<div class="so">
+<h2 class="animated bounceInLeft h2-responsive">Look At Digital Amph Platform
+Powerful & Awesome Features</h2>
+    <div class="background1">
+  <div class="transbox1">
+    <p class="wow fadeInUp" data-wow-delay="0.6s">Digital Amph was founded by amarnath over many cups of tea at his kitchen table, our brand promise is simple to provide powerful digital marketing solutions to small and medium businesses that are looking to build success online.</p>
+  </div>
+</div>
+<div id="continer">
+  <div ng2-carouselamos class="slides-wrapper"
+    [items]="items"
+    [width]="900"
+    [$prev]="prev"
+    [$next]="next"
+    [$item]="item">
+  </div>
+  <ng-template #prev>
+    <img src="assets/prev.png" class="animated pulse infinite" height="60" width="60" id="left" >
+  </ng-template>
+  <ng-template #next>
+    <img src="assets/next.png" class="animated pulse infinite" height="60" width="60" id="right"  >
+  </ng-template>
+  <ng-template #item let-item let-i="index">
+    <div class="items">
+      <img src="{{ item.name }}" class="rounded-circle" >
+    </div>
+  </ng-template><br><br>
+</div>
+
+</div>
+<h2 class="animated bounceInLeft h2-responsive">Don't Just Take Our Word For It</h2>
+  <h5 class="animated bounceInRight">Trusted By The Best Brands</h5>
+<div class="row">
+    <div class="col-md-4 col-sm-4">
+      <div class="view overlay hm-red-strong">
+    <img src="assets/pic.png" class="img-fluid img-thumbnail " alt="">
+    <div class="mask flex-center">
+        <h1 class="white-text animated pulse infinite">Subhash Desai</h1>
+        <p class="white-text">CEO, Markiverse Media Pvt Ltd</p><br>
+    </div>
+
+</div>
+    </div>
+    <div class="col-md-4 col-sm-4">
+      <div class="view overlay hm-red-strong">
+    <img src="assets/pic2.png" class="img-fluid img-thumbnail " alt="">
+    <div class="mask flex-center">
+        <h1 class="white-text animated pulse infinite">Sarma Vemparala</h1>
+        <p class="white-text">CEO, Greenchain Software Solutions</p><br>
+    </div>
+
+</div>
+    </div>
+
+     <div class="col-md-4 col-sm-4">
+      <div class="view overlay hm-red-strong">
+    <img src="assets/pic3.png" class="img-fluid img-thumbnail " alt="">
+    <div class="mask flex-center">
+        <h1 class="white-text animated pulse infinite">Tarun Kumar</h1>
+        <p class="white-text">Associate, Malaysia</p><br><br>
+    </div>
+
+</div>
+    </div>
+    
+</div>
+
+</div>
+
+
+        
+
+
+

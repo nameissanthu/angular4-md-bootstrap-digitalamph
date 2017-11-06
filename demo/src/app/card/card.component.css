@@ -1,0 +1,61 @@
+
+
+h2 {
+    font-family: 'Luckiest Guy', cursive;
+    
+   
+  
+}
+
+h5{
+    font-family: 'Luckiest Guy', cursive;
+    
+}
+h3{
+    font-family: 'Lilita One', cursive;
+    
+}
+p{
+    font-family: 'Chelsea Market', cursive;
+   
+}
+div.background1 {
+  background: url("https://media.istockphoto.com/photos/perfect-wood-planks-background-picture-id523584249?k=6&m=523584249&s=612x612&w=0&h=733mmrl5yJ3wMbiSFiTCRwDq5Mth-sUeDcRVAn8Qakw=") repeat;
+  border: 1px solid skyblue;
+}
+
+div.transbox1 {
+  margin: 10px;
+  background-color: #ffffff;
+  border: 1px solid pink;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox1 p {
+  margin: 1%;
+  font-weight: bold;
+  color: #000000;
+  font-size: 20px;
+}
+
+#container{
+    width: 100%;
+    margin: 5em auto;
+    padding: 0;
+    background: #fff;
+
+}
+
+.items{
+    max-width: 300px;
+    height: 300px;
+    background: #ECECEC;
+
+}
+#left, #right{
+    margin: 30px;
+
+}
+
+

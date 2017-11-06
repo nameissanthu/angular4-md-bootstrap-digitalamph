@@ -1,0 +1,145 @@
+  <link href="https://fonts.googleapis.com/css?family=Chelsea+Market|Lilita+One|Luckiest+Guy" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <div align="left">
+    <button type="button" class="btn btn-danger btn-sm waves-slight" data-toggle="modal" data-target="#basicExample" (click)="fluid.show()" mdbRippleRadius>
+    <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+</button>
+
+<div mdbModal #fluid="mdb-modal" class="modal fade right" id="fullHeightModalRight" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-full-height modal-right" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title w-100" id="myModalLabel"><img src="assets/logo1.png" height="50" width="220"></h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="fluid.hide()">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Digital Amph was founded by amarnath over many cups of tea at his kitchen table, 
+                  our brand promise is simple to provide powerful digital marketing solutions to small 
+                  and medium businesses that are looking to build success online.
+                </p>
+
+                <ul class="list-group z-depth-0">
+                    <li class="list-group-item justify-content-between">
+                        Corporate Training
+                        <span class="fa fa-users" aria-hidden="true"></span>
+                    </li>
+                    <li class="list-group-item justify-content-between">
+                       Workshops
+                        <span class="fa fa-bar-chart" aria-hidden="true"></span>
+                    </li>
+                    <li class="list-group-item justify-content-between">
+                        Consulting
+                        <span class="fa fa-user-plus" aria-hidden="true"></span>
+                    </li>
+                    <li class="list-group-item justify-content-between">
+                       Web Development
+                        <span  class="fa fa-desktop" aria-hidden="true"></span>
+                    </li>
+                    <li class="list-group-item justify-content-between">
+                        Research
+                        <span class="fa fa-search" aria-hidden="true"></span>
+                    </li>
+                    <li class="list-group-item justify-content-between">
+                        Services
+                        <span  class="fa fa-comments" aria-hidden="true"></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-secondary waves-light" data-dismiss="modal" (click)="fluid.hide()" mdbRippleRadius>Close</button>
+                <button type="button" class="btn btn-primary waves-light" mdbRippleRadius>Get Started</button>
+            </div>
+        </div>
+    </div>
+</div>
+                
+  </div>
+  
+  <h3 class="animated bounceInLeft h2-responsive">Hello, We Are Digital Amph</h3>
+  <h6 class="animated bounceInRight h5-responsive">Do More With Social Media</h6>
+  <div class="background">
+  <div class="transbox">  
+<button class="btn btn-info btn-sm waves-slight" style="border-radius:20px" type="button" (click)="test.toggle()" mdbRippleRadius>
+    <img src="assets/logo1.png" height="50" width="230">
+</button>
+
+<div class="" [mdbCollapse]="isCollapsed" #test="bs-collapse">
+        <p>We’re Digital Amph, providing training, consulting,
+ research and development. Our brand promise is 
+simple to provide powerful digital marketing solutions 
+to small and medium businesses that are looking to 
+build success online...</p>
+</div>
+
+  </div>
+</div> <br>
+
+<div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="assets/training.png" alt="placeholder image" width="140" height="140">
+      <div class="caption">
+        <h4 class="animated infinite pulse">Corporate Training</h4>
+              </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class=thumbnail> <img src="assets/workshop.png" alt="Generic placeholder image" width="140" height="140">
+      <div class=caption>
+        <h4 class="animated infinite pulse">Workshops</h4>
+              </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class=thumbnail> <img src="assets/consulting.png" alt="Generic placeholder image" width="140" height="140">
+      <div class=caption>
+        <h4 class="animated infinite pulse">Consulting</h4>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class=thumbnail> <img src="assets/development.png" alt="Generic placeholder image" width="140" height="140">
+      <div class=caption>
+        <h4 class="animated infinite pulse">Development</h4>
+         </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class=thumbnail> <img src="assets/research.png" alt="Generic placeholder image" width="140" height="140">
+      <div class=caption>
+        <h4 class="animated infinite pulse">Research</h4>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class=thumbnail> <img src="assets/services.png" alt="Generic placeholder image" width="140" height="140">
+      <div class=caption>
+       <h4 class="animated infinite pulse">Services</h4>
+        
+      </div>
+    </div>
+   
+  </div>
+ 
+
+
+
+
+  
+
+
+          
+
+
+             
+                
+            

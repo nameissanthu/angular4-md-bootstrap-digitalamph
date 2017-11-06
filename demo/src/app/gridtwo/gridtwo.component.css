@@ -1,0 +1,40 @@
+h3 {
+    font-family: 'Luckiest Guy', cursive;
+    color:black;
+   
+  
+}
+
+h6{
+    font-family: 'Luckiest Guy', cursive;
+}
+h4{
+    font-family: 'Lilita One', cursive;
+    color: white;
+}
+p{
+    font-family: 'Chelsea Market', cursive;
+    color: black;
+}
+
+
+div.transbox p {
+  margin: 1%;
+  font-weight: bold;
+  color: #000000;
+  font-size: 20px;
+}
+
+.some{
+    background-color: skyblue;
+}
+
+
+div.transbox1 p {
+  margin: 1%;
+  font-weight: bold;
+  color: white;
+  background-color: #F74949;
+  border-radius:25px;
+  font-size: 20px;
+}
